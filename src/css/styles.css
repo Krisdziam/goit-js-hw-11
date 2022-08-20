@@ -10,13 +10,77 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
 }
 
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+.search-form{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 30px;
+
+}
+
+input{
+  width: 180px;
+  height: 30px; 
+  font-size: 20px;
 }
 
 
+button {
+cursor: pointer;
+display: block;
+margin-left: 10px;
+font-size: 20px;
+background-color:rgb(109, 109, 248);
+border: none;
+border-radius: 5px;
+color: white;
+padding: 3px 15px;
+
+
+
+}
+
+button:hover, button:focus{
+  background-color: blue;
+
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1), 500ms;
+}
+
+.gallery{
+display: flex;
+flex-wrap: wrap;
+
+}
+.info{
+
+
+
+}
+
+
+
+
+.info-item{
+
+}
+
+.photo-card{
+
+
+  
+}
+.gallery__image{
+  width: 350px;
+  height: 220px;
+  margin-right: 15px;
+}
+
+
+.is-hidden{
+  display: none;
+
+}
